@@ -2,3 +2,6 @@ accounts
 csr
 keys
 letsencrypt.log*
+archive
+live
+renewal

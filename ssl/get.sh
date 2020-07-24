@@ -1,4 +1,7 @@
 #!/bin/sh
+
+echo CPanel at https://datacentric.group:2083/
+
 certbot \
 	--config-dir . --work-dir . --logs-dir . \
 	-d *.datacentric.group -d datacentric.group \
